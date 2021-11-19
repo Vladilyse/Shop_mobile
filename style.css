@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+
+}
+.content {
+    margin-bottom: 20px;
+}
+.col-12{
+    background-color: rgb(93, 59, 187);
+    min-height: 90px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+img{
+    width: 120px;
+    height: 150px;
+    margin-top: 10px;
+}
+/* .row {
+    flex-wrap: wrap;
+} */
+
+.block{
+    min-height: 120px;
+    border: 1px solid black;
+    margin-top: 20px;
+    -webkit-box-shadow: -3px 0px 15px -1px #000000; 
+    box-shadow: -3px 0px 15px -1px #000000;
+    cursor: pointer;
+
+}
+.block:hover{
+    -webkit-box-shadow: -3px 0px 15px 3px #000000; 
+    box-shadow: -3px 0px 15px 3px #000000;
+}
+.Tel-3 img{
+    width: 90px;
+}
+.Tel-4 img{
+    width: 130px;
+}
+.col-4{
+    min-height: 120px;
+    border: 1px solid black;
+    margin-top: 20px;
+    -webkit-box-shadow: -3px 0px 15px -1px #000000; 
+    box-shadow: -3px 0px 15px -1px #000000;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.col-4:hover{
+    -webkit-box-shadow: -3px 0px 15px 3px #000000; 
+    box-shadow: -3px 0px 15px 3px #000000;
+}
+.noyt1{
+    height: 120px;
+}
+.noyt2{
+    width: 150px;
+    height: 120px;
+}
+.noyt3{
+    width: 130px;
+    height: 120px;
+}
+.noyt4{
+    width: 130px;
+    height: 120px;
+}
+.holo{
+    height: 120px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.knopka{
+    background-color: rgb(240, 240, 17);
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    position: relative;
+    right: -50px;
+    top: 45px;
+}
+.knopka:hover{
+    background-color: rgb(1, 182, 182);
+}
+.view{
+    width: 100px;
+    height: 30px;
+    background-color: violet;
+    /* display: flex;
+    align-items: center; */
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+    top: 15px;
+}
+.view:hover{
+    background-color: rgb(245, 48, 245);
+}
+.price{
+    position: relative;
+    bottom: 70px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Cabin', sans-serif;
+}
+h3{
+    text-align: start;
+    color: green;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link p{
+    margin-top: 18px;
+}
+input{
+    margin-right: 5px;
+    margin-left: 15px;
+}
+/* @media screen and (max-width:1182px){
+    .knopka{
+        right: -70px;
+    }
+    .view{
+        right: 50px;
+    }
+}
+@media screen and (max-width:975px){
+    .knopka{
+        right: -40px;
+    }
+    .view{
+        right: 30px;
+        top: 30px;
+    }
+}
+@media screen and (max-width:750px){
+    .knopka{
+        right: 0px;
+    }
+    .view{
+        right: 0px;
+        top: 30px;
+    }
+    .noyt1{
+        height: 120px;
+    }
+    .noyt2{
+        width: 130px;
+        height: 100px;
+    }
+    .noyt3{
+        width: 110px;
+        height: 100px;
+    }
+    .noyt4{
+        width: 110px;
+        height: 100px;
+    }
+    img{
+        width: 110px;
+        height: 130px;
+        margin-top: 10px;
+    }
+    .Tel-3 img{
+        width: 90px;
+    }
+    .Tel-4 img{
+        width: 110px;
+    }
+}
+@media screen and (max-width:440px){
+    .knopka{
+        right: 0px;
+        width: 80px;
+    }
+    .view{
+        right: 0px;
+        top: 30px;
+        width: 80px;
+    }
+    .noyt1{
+        height: 90px;
+    }
+    .noyt2{
+        width: 110px;
+        height: 100px;
+    }
+    .noyt3{
+        width: 90px;
+        height: 80px;
+    }
+    .noyt4{
+        width: 90px;
+        height: 80px;
+    }
+    img{
+        width: 80px;
+        height: 90px;
+        margin-top: 10px;
+    }
+    .Tel-3 img{
+        width: 70px;
+    }
+    .Tel-4 img{
+        width: 90px;
+    }
+}
+@media screen and (max-width:440px){
+    .knopka{
+        right: 0px;
+        width: 80px;
+    }
+    .view{
+        right: 0px;
+        top: 30px;
+        width: 80px;
+    }
+    .noyt1{
+        height: 90px;
+    }
+    .noyt2{
+        width: 110px;
+        height: 100px;
+    }
+    .noyt3{
+        width: 90px;
+        height: 80px;
+    }
+    .noyt4{
+        width: 90px;
+        height: 80px;
+    }
+    img{
+        width: 80px;
+        height: 90px;
+        margin-top: 10px;
+    }
+    .Tel-3 img{
+        width: 70px;
+    }
+    .Tel-4 img{
+        width: 90px;
+    }
+}
+@media screen and (max-width:370px){
+    .knopka{
+        right: 0px;
+        width: 70px;
+    }
+    .view{
+        right: 0px;
+        top: 30px;
+        width: 70px;
+    }
+    .noyt1{
+        height: 70px;
+    }
+    .noyt2{
+        width: 90px;
+        height: 80px;
+    }
+    .noyt3{
+        width: 70px;
+        height: 60px;
+    }
+    .noyt4{
+        width: 70px;
+        height: 60px;
+    }
+    img{
+        width: 60px;
+        height: 70px;
+        margin-top: 10px;
+    }
+    .Tel-3 img{
+        width: 50px;
+    }
+    .Tel-4 img{
+        width: 70px;
+    }
+    .price{
+        font-size: 15px;
+    }
+    .holo{
+        width: 80px;
+    }
+} */
